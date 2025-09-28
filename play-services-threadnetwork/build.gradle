@@ -42,3 +42,4 @@ dependencies {
 
     annotationProcessor project(':safe-parcel-processor')
 }
+
