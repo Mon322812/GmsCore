@@ -41,3 +41,4 @@ class AppSetServiceImpl : IAppSetService.Stub() {
         callback?.onAppSetInfo(Status.SUCCESS, AppSetInfoParcel(UUID.randomUUID().toString(), AppSetIdInfo.SCOPE_APP))
     }
 }
+
