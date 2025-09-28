@@ -92,4 +92,4 @@ class ThreadNetworkServiceImpl(private val context: Context, private val package
         runCatching { callback?.onIsPreferredCredentials(THREAD_NETWORK_NOT_FOUND, false) }
     }
 
-}
+} 
